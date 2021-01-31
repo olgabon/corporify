@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { Store } from '@ngxs/store';
 
 import { RemindersComponent } from './reminders.component';
 
@@ -8,7 +9,8 @@ describe('RemindersComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RemindersComponent ]
+      declarations: [ RemindersComponent ],
+      providers: [ Store ]
     })
     .compileComponents();
   });
@@ -17,9 +19,5 @@ describe('RemindersComponent', () => {
     fixture = TestBed.createComponent(RemindersComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
   });
 });

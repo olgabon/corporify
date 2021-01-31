@@ -1,1445 +1,1446 @@
-{"data": [
-	{
-		"type": "USER_FREE_FORM",
-		"data": {
-			"text": "Test reminder",
-			"description": "blaaa",
-			"reminderDate": 1525162649,
-			"readByUser": false,
-			"id": 192,
-			"createdAt": 1525076257,
-			"updatedAt": 1525076257,
-			"archived": false
-		},
-		"fillType": "TABLE",
-		"id": 192
-	},
-	{
-		"type": "DOCUMENT_FREE_FORM",
-		"data": {
-			"topLevelEntity": {
-				"state": {
-					"data": {
-						"name": "KALCo",
-						"legalFormDefinition": {
-							"allowNewManagementBodies": false,
-							"localizedName": {
-								"translations": {
-									"nl": {
-										"string": "Naamloze vennootschap",
-										"fillType": "MINIMAL",
-										"id": 214,
-										"archived": false
-									},
-									"en": {
-										"string": "Public limited liability company",
-										"fillType": "MINIMAL",
-										"id": 212,
-										"archived": false
-									},
-									"fr": {
-										"string": "Société anonyme",
-										"fillType": "MINIMAL",
-										"id": 213,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 36,
-								"archived": false
-							},
-							"name": "Public limited liability company",
-							"localizedAbbreviation": {
-								"translations": {
-									"nl": {
-										"string": "NV",
-										"fillType": "MINIMAL",
-										"id": 216,
-										"archived": false
-									},
-									"en": {
-										"string": "NV/SA",
-										"fillType": "MINIMAL",
-										"id": 37,
-										"archived": false
-									},
-									"fr": {
-										"string": "SA",
-										"fillType": "MINIMAL",
-										"id": 215,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 37,
-								"archived": false
-							},
-							"abbreviation": "NV/SA",
-							"suiGeneris": false,
-							"hasEnterpriseNumber": true,
-							"governanceModel": "SINGLE_TIER_ONLY",
-							"isJointOwnership": false,
-							"securityConfigurations": [
-								{
-									"legalFormDefinition": 4,
-									"type": "SHARE",
-									"data": {
-										"defaultCapitalType": "SHARE_CAPITAL",
-										"alternativeShareCapitalTypes": [
-											"NO_CAPITAL"
-										],
-										"minimumNbSecurities": 1,
-										"minimumNbHolders": 1,
-										"allowIssueToSelf": false,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE",
-											"SINGLE"
-										],
-										"fillType": "MINIMAL",
-										"id": 1,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 1,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "WARRANT",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE"
-										],
-										"fillType": "MINIMAL",
-										"id": 2,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 2,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "BOND",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE"
-										],
-										"fillType": "MINIMAL",
-										"id": 3,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 3,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "PROFIT_SHARE",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"SINGLE"
-										],
-										"fillType": "MINIMAL",
-										"id": 4,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 4,
-									"archived": false
-								}
-							],
-							"managementBodies": [
-
-							],
-							"fillType": "MINIMAL",
-							"id": 4,
-							"archived": false
-						},
-						"logo": 319,
-						"logoThumbnail": "data:image/image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAIAAACkSXkKAAABuElEQVR42mP4TyXAAMRfllR/mpyIHc3IgKj7NAmL7Ieu4P+/fyEM+jQ940OL1/tG1zfp8m8yFMBI/kO7P1DwQ1cQRB2I3eL1cVIcSE2m0rtqGyD3XaXV/98/EQZBwN93T18nS0ENSpPF6v43WWog2Sxl7F6DgD+v7r9OwWfQ98NL36TLvYrm/fv5HfkG/X3/Euxx+b9vn+IMbGIMepOt/CZD8WNPFL5YI2DQv3+v44TBgnIEoh+/Qb8fXACKvE6W/P/nN/kG/f385k2mIlCEqASJ06B/f1+nSgO5HzqCKDLoTZYKhPs6WYJsg+T+vn8OS+Ug9L4liHwXPXdlQJiVqfjv22cyDfr34yuyo4CCeMwiFGvvniGb9TKIjfx09GFCIrJZn2akkZ9FXgazIJkl/+fJdXLz2p/fwDIIbtbrFOl/X96RmWl/3z0LLEOQ/Uh+efShLQA5NXzd3I/doL8fXhJRQiojPBgn9PvhZRSDPvZFvqu0fFduBsqfwLAAIcV31dZAwff1TsgG/fv6ERjYMDVKb7JVgWp+nNoINejbnnlf13dhRd9Q3Q9KpEdWo6rp/H3/EorXKAQA0IDBWVkkwtUAAAAASUVORK5CYII=",
-						"status": "ACTIVE",
-						"hasAssets": true,
-						"contactInfos": [
-
-						],
-						"addresses": [
-							{
-								"type": "REGISTERED_OFFICE",
-								"street": "Grote Steenweg",
-								"number": "85",
-								"city": "Brussel",
-								"postalCode": "1000",
-								"country": {
-									"code": "BE",
-									"name": "Belgium",
-									"fillType": "MINIMAL",
-									"id": 22,
-									"archived": false
-								},
-								"countryCode": "BE",
-								"main": true,
-								"fillType": "FULL",
-								"id": 614,
-								"createdAt": 1571824979,
-								"updatedAt": 1571824979,
-								"archived": false
-							}
-						],
-						"fillType": "MINIMAL",
-						"id": 36,
-						"archived": false
-					},
-					"closedAt": 0,
-					"fillType": "MINIMAL",
-					"id": 36,
-					"archived": false
-				},
-				"type": "LEGAL",
-				"id": 36
-			},
-			"documentType": "CONTRACT",
-			"text": "Test reminder to Contract",
-			"description": "Demo silo",
-			"reminderDate": 1525185357,
-			"readByUser": false,
-			"id": 198
-		},
-		"id": 198
-	},
-	{
-		"type": "DOCUMENT_FREE_FORM",
-		"data": {
-			"topLevelEntity": {
-				"state": {
-					"data": {
-						"name": "KALCo",
-						"legalFormDefinition": {
-							"allowNewManagementBodies": false,
-							"localizedName": {
-								"translations": {
-									"nl": {
-										"string": "Naamloze vennootschap",
-										"fillType": "MINIMAL",
-										"id": 214,
-										"archived": false
-									},
-									"en": {
-										"string": "Public limited liability company",
-										"fillType": "MINIMAL",
-										"id": 212,
-										"archived": false
-									},
-									"fr": {
-										"string": "Société anonyme",
-										"fillType": "MINIMAL",
-										"id": 213,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 36,
-								"archived": false
-							},
-							"name": "Public limited liability company",
-							"localizedAbbreviation": {
-								"translations": {
-									"nl": {
-										"string": "NV",
-										"fillType": "MINIMAL",
-										"id": 216,
-										"archived": false
-									},
-									"en": {
-										"string": "NV/SA",
-										"fillType": "MINIMAL",
-										"id": 37,
-										"archived": false
-									},
-									"fr": {
-										"string": "SA",
-										"fillType": "MINIMAL",
-										"id": 215,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 37,
-								"archived": false
-							},
-							"abbreviation": "NV/SA",
-							"suiGeneris": false,
-							"hasEnterpriseNumber": true,
-							"governanceModel": "SINGLE_TIER_ONLY",
-							"isJointOwnership": false,
-							"securityConfigurations": [
-								{
-									"legalFormDefinition": 4,
-									"type": "SHARE",
-									"data": {
-										"defaultCapitalType": "SHARE_CAPITAL",
-										"alternativeShareCapitalTypes": [
-											"NO_CAPITAL"
-										],
-										"minimumNbSecurities": 1,
-										"minimumNbHolders": 1,
-										"allowIssueToSelf": false,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE",
-											"SINGLE"
-										],
-										"fillType": "MINIMAL",
-										"id": 1,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 1,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "WARRANT",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE"
-										],
-										"fillType": "MINIMAL",
-										"id": 2,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 2,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "BOND",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE"
-										],
-										"fillType": "MINIMAL",
-										"id": 3,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 3,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "PROFIT_SHARE",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"SINGLE"
-										],
-										"fillType": "MINIMAL",
-										"id": 4,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 4,
-									"archived": false
-								}
-							],
-							"managementBodies": [
-
-							],
-							"fillType": "MINIMAL",
-							"id": 4,
-							"archived": false
-						},
-						"logo": 319,
-						"logoThumbnail": "data:image/image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAIAAACkSXkKAAABuElEQVR42mP4TyXAAMRfllR/mpyIHc3IgKj7NAmL7Ieu4P+/fyEM+jQ940OL1/tG1zfp8m8yFMBI/kO7P1DwQ1cQRB2I3eL1cVIcSE2m0rtqGyD3XaXV/98/EQZBwN93T18nS0ENSpPF6v43WWog2Sxl7F6DgD+v7r9OwWfQ98NL36TLvYrm/fv5HfkG/X3/Euxx+b9vn+IMbGIMepOt/CZD8WNPFL5YI2DQv3+v44TBgnIEoh+/Qb8fXACKvE6W/P/nN/kG/f385k2mIlCEqASJ06B/f1+nSgO5HzqCKDLoTZYKhPs6WYJsg+T+vn8OS+Ug9L4liHwXPXdlQJiVqfjv22cyDfr34yuyo4CCeMwiFGvvniGb9TKIjfx09GFCIrJZn2akkZ9FXgazIJkl/+fJdXLz2p/fwDIIbtbrFOl/X96RmWl/3z0LLEOQ/Uh+efShLQA5NXzd3I/doL8fXhJRQiojPBgn9PvhZRSDPvZFvqu0fFduBsqfwLAAIcV31dZAwff1TsgG/fv6ERjYMDVKb7JVgWp+nNoINejbnnlf13dhRd9Q3Q9KpEdWo6rp/H3/EorXKAQA0IDBWVkkwtUAAAAASUVORK5CYII=",
-						"status": "ACTIVE",
-						"hasAssets": true,
-						"contactInfos": [
-
-						],
-						"addresses": [
-							{
-								"type": "REGISTERED_OFFICE",
-								"street": "Grote Steenweg",
-								"number": "85",
-								"city": "Brussel",
-								"postalCode": "1000",
-								"country": {
-									"code": "BE",
-									"name": "Belgium",
-									"fillType": "MINIMAL",
-									"id": 22,
-									"archived": false
-								},
-								"countryCode": "BE",
-								"main": true,
-								"fillType": "FULL",
-								"id": 614,
-								"createdAt": 1571824979,
-								"updatedAt": 1571824979,
-								"archived": false
-							}
-						],
-						"fillType": "MINIMAL",
-						"id": 36,
-						"archived": false
-					},
-					"id": 36
-				},
-				"type": "LEGAL",
-				"id": 36
-			},
-			"documentType": "DEFAULT_DOCUMENT",
-			"text": "Test reminder aan contract 2",
-			"description": "Ook in demo",
-			"reminderDate": 1525185417,
-			"readByUser": false,
-			"id": 199
-		},
-		"id": 199
-	},
-	{
-		"type": "DOCUMENT_FREE_FORM",
-		"data": {
-			"document": 785,
-			"topLevelEntity": {
-				"state": {
-					"data": {
-						"name": "KALCo",
-						"legalFormDefinition": {
-							"allowNewManagementBodies": false,
-							"localizedName": {
-								"translations": {
-									"nl": {
-										"string": "Naamloze vennootschap",
-										"fillType": "MINIMAL",
-										"id": 214,
-										"archived": false
-									},
-									"en": {
-										"string": "Public limited liability company",
-										"fillType": "MINIMAL",
-										"id": 212,
-										"archived": false
-									},
-									"fr": {
-										"string": "Société anonyme",
-										"fillType": "MINIMAL",
-										"id": 213,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 36,
-								"archived": false
-							},
-							"name": "Public limited liability company",
-							"localizedAbbreviation": {
-								"translations": {
-									"nl": {
-										"string": "NV",
-										"fillType": "MINIMAL",
-										"id": 216,
-										"archived": false
-									},
-									"en": {
-										"string": "NV/SA",
-										"fillType": "MINIMAL",
-										"id": 37,
-										"archived": false
-									},
-									"fr": {
-										"string": "SA",
-										"fillType": "MINIMAL",
-										"id": 215,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 37,
-								"archived": false
-							},
-							"abbreviation": "NV/SA",
-							"suiGeneris": false,
-							"hasEnterpriseNumber": true,
-							"governanceModel": "SINGLE_TIER_ONLY",
-							"isJointOwnership": false,
-							"securityConfigurations": [
-								{
-									"legalFormDefinition": 4,
-									"type": "SHARE",
-									"data": {
-										"defaultCapitalType": "SHARE_CAPITAL",
-										"alternativeShareCapitalTypes": [
-											"NO_CAPITAL"
-										],
-										"minimumNbSecurities": 1,
-										"minimumNbHolders": 1,
-										"allowIssueToSelf": false,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE",
-											"SINGLE"
-										],
-										"fillType": "MINIMAL",
-										"id": 1,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 1,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "WARRANT",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE"
-										],
-										"fillType": "MINIMAL",
-										"id": 2,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 2,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "BOND",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE"
-										],
-										"fillType": "MINIMAL",
-										"id": 3,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 3,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "PROFIT_SHARE",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"SINGLE"
-										],
-										"fillType": "MINIMAL",
-										"id": 4,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 4,
-									"archived": false
-								}
-							],
-							"managementBodies": [
-
-							],
-							"fillType": "MINIMAL",
-							"id": 4,
-							"archived": false
-						},
-						"logo": 319,
-						"logoThumbnail": "data:image/image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAIAAACkSXkKAAABuElEQVR42mP4TyXAAMRfllR/mpyIHc3IgKj7NAmL7Ieu4P+/fyEM+jQ940OL1/tG1zfp8m8yFMBI/kO7P1DwQ1cQRB2I3eL1cVIcSE2m0rtqGyD3XaXV/98/EQZBwN93T18nS0ENSpPF6v43WWog2Sxl7F6DgD+v7r9OwWfQ98NL36TLvYrm/fv5HfkG/X3/Euxx+b9vn+IMbGIMepOt/CZD8WNPFL5YI2DQv3+v44TBgnIEoh+/Qb8fXACKvE6W/P/nN/kG/f385k2mIlCEqASJ06B/f1+nSgO5HzqCKDLoTZYKhPs6WYJsg+T+vn8OS+Ug9L4liHwXPXdlQJiVqfjv22cyDfr34yuyo4CCeMwiFGvvniGb9TKIjfx09GFCIrJZn2akkZ9FXgazIJkl/+fJdXLz2p/fwDIIbtbrFOl/X96RmWl/3z0LLEOQ/Uh+efShLQA5NXzd3I/doL8fXhJRQiojPBgn9PvhZRSDPvZFvqu0fFduBsqfwLAAIcV31dZAwff1TsgG/fv6ERjYMDVKb7JVgWp+nNoINejbnnlf13dhRd9Q3Q9KpEdWo6rp/H3/EorXKAQA0IDBWVkkwtUAAAAASUVORK5CYII=",
-						"status": "ACTIVE",
-						"hasAssets": true,
-						"contactInfos": [
-
-						],
-						"addresses": [
-							{
-								"type": "REGISTERED_OFFICE",
-								"street": "Grote Steenweg",
-								"number": "85",
-								"city": "Brussel",
-								"postalCode": "1000",
-								"country": {
-									"code": "BE",
-									"name": "Belgium",
-									"fillType": "MINIMAL",
-									"id": 22,
-									"archived": false
-								},
-								"countryCode": "BE",
-								"main": true,
-								"fillType": "FULL",
-								"id": 614,
-								"createdAt": 1571824979,
-								"updatedAt": 1571824979,
-								"archived": false
-							}
-						],
-						"fillType": "MINIMAL",
-						"id": 36,
-						"archived": false
-					},
-					"closedAt": 0,
-					"fillType": "MINIMAL",
-					"id": 36,
-					"archived": false
-				},
-				"type": "LEGAL",
-				"updatedBy": {
-					"userGroups": [
-
-					],
-					"portalUser": false,
-					"id": 2
-				},
-				"isPrivate": false,
-				"mostRecentUpdates": [
-
-				],
-				"fillType": "MINIMAL",
-				"id": 36,
-				"archived": false
-			},
-			"documentType": "DEFAULT_DOCUMENT",
-			"text": "Test 3 van free from op Contract",
-			"description": "Demo omgeving",
-			"reminderDate": 1525185547,
-			"readByUser": false,
-			"id": 200
-		},
-		"id": 200
-	},
-	{
-		"type": "ENTITY_FREE_FORM",
-		"data": {
-			"entity": {
-				"state": {
-					"data": {
-						"name": "YY Company",
-						"legalFormDefinition": {
-							"allowNewManagementBodies": false,
-							"localizedName": {
-								"translations": {
-									"nl": {
-										"string": "Besloten vennootschap met beperkte aansprakelijkheid",
-										"fillType": "MINIMAL",
-										"id": 199,
-										"archived": false
-									},
-									"en": {
-										"string": "Private limited liability company",
-										"fillType": "MINIMAL",
-										"id": 197,
-										"archived": false
-									},
-									"fr": {
-										"string": "Société privée à responsabilité limitée",
-										"fillType": "MINIMAL",
-										"id": 198,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 30,
-								"archived": false
-							},
-							"name": "Private limited liability company",
-							"localizedAbbreviation": {
-								"translations": {
-									"nl": {
-										"string": "BVBA",
-										"fillType": "MINIMAL",
-										"id": 201,
-										"archived": false
-									},
-									"en": {
-										"string": "BVBA/SPRL",
-										"fillType": "MINIMAL",
-										"id": 31,
-										"archived": false
-									},
-									"fr": {
-										"string": "SPRL",
-										"fillType": "MINIMAL",
-										"id": 200,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 31,
-								"archived": false
-							},
-							"abbreviation": "BVBA/SPRL",
-							"suiGeneris": false,
-							"hasEnterpriseNumber": true,
-							"governanceModel": "SINGLE_TIER_ONLY",
-							"isJointOwnership": false,
-							"securityConfigurations": [
-								{
-									"legalFormDefinition": 1,
-									"type": "SHARE",
-									"data": {
-										"defaultCapitalType": "SHARE_CAPITAL",
-										"alternativeShareCapitalTypes": [
-											"NO_CAPITAL"
-										],
-										"minimumNbSecurities": 1,
-										"minimumNbHolders": 1,
-										"allowIssueToSelf": false,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE",
-											"SINGLE"
-										],
-										"fillType": "MINIMAL",
-										"id": 6,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 6,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 1,
-									"type": "BOND",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE"
-										],
-										"fillType": "MINIMAL",
-										"id": 7,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 7,
-									"archived": false
-								}
-							],
-							"managementBodies": [
-
-							],
-							"fillType": "MINIMAL",
-							"id": 1,
-							"archived": false
-						},
-						"status": "ACTIVE",
-						"hasAssets": true,
-						"contactInfos": [
-
-						],
-						"addresses": [
-							{
-								"type": "REGISTERED_OFFICE",
-								"street": "Veldstraat",
-								"number": "20",
-								"city": "Gent",
-								"postalCode": "9000",
-								"country": {
-									"code": "BE",
-									"name": "Belgium",
-									"fillType": "MINIMAL",
-									"id": 22,
-									"archived": false
-								},
-								"countryCode": "BE",
-								"main": true,
-								"fillType": "FULL",
-								"id": 688,
-								"createdAt": 1580728973,
-								"updatedAt": 1580728973,
-								"archived": false
-							}
-						],
-						"fillType": "MINIMAL",
-						"id": 304,
-						"archived": false
-					},
-					"closedAt": 0,
-					"fillType": "MINIMAL",
-					"id": 304,
-					"archived": false
-				},
-				"type": "LEGAL",
-				"updatedBy": {
-					"userGroups": [
-
-					],
-					"portalUser": false,
-					"id": 176
-				},
-				"isPrivate": false,
-				"mostRecentUpdates": [
-
-				],
-				"fillType": "MINIMAL",
-				"id": 304,
-				"archived": false
-			},
-			"owner": 2,
-			"text": "Blaaa",
-			"reminderDate": 1529399131,
-			"readByUser": false,
-			"id": 237
-		},
-		"id": 237
-	},
-	{
-		"type": "DOCUMENT_FREE_FORM",
-		"data": {
-			"document": 948,
-			"topLevelEntity": {
-				"state": {
-					"data": {
-						"name": "YY Company",
-						"legalFormDefinition": {
-							"allowNewManagementBodies": false,
-							"localizedName": {
-								"translations": {
-									"nl": {
-										"string": "Besloten vennootschap met beperkte aansprakelijkheid",
-										"fillType": "MINIMAL",
-										"id": 199,
-										"archived": false
-									},
-									"en": {
-										"string": "Private limited liability company",
-										"fillType": "MINIMAL",
-										"id": 197,
-										"archived": false
-									},
-									"fr": {
-										"string": "Société privée à responsabilité limitée",
-										"fillType": "MINIMAL",
-										"id": 198,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 30,
-								"archived": false
-							},
-							"name": "Private limited liability company",
-							"localizedAbbreviation": {
-								"translations": {
-									"nl": {
-										"string": "BVBA",
-										"fillType": "MINIMAL",
-										"id": 201,
-										"archived": false
-									},
-									"en": {
-										"string": "BVBA/SPRL",
-										"fillType": "MINIMAL",
-										"id": 31,
-										"archived": false
-									},
-									"fr": {
-										"string": "SPRL",
-										"fillType": "MINIMAL",
-										"id": 200,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 31,
-								"archived": false
-							},
-							"abbreviation": "BVBA/SPRL",
-							"suiGeneris": false,
-							"hasEnterpriseNumber": true,
-							"governanceModel": "SINGLE_TIER_ONLY",
-							"isJointOwnership": false,
-							"securityConfigurations": [
-								{
-									"legalFormDefinition": 1,
-									"type": "SHARE",
-									"data": {
-										"defaultCapitalType": "SHARE_CAPITAL",
-										"alternativeShareCapitalTypes": [
-											"NO_CAPITAL"
-										],
-										"minimumNbSecurities": 1,
-										"minimumNbHolders": 1,
-										"allowIssueToSelf": false,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE",
-											"SINGLE"
-										],
-										"fillType": "MINIMAL",
-										"id": 6,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 6,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 1,
-									"type": "BOND",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE"
-										],
-										"fillType": "MINIMAL",
-										"id": 7,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 7,
-									"archived": false
-								}
-							],
-							"managementBodies": [
-
-							],
-							"fillType": "MINIMAL",
-							"id": 1,
-							"archived": false
-						},
-						"status": "ACTIVE",
-						"hasAssets": true,
-						"contactInfos": [
-
-						],
-						"addresses": [
-							{
-								"type": "REGISTERED_OFFICE",
-								"street": "Veldstraat",
-								"number": "20",
-								"city": "Gent",
-								"postalCode": "9000",
-								"country": {
-									"code": "BE",
-									"name": "Belgium",
-									"fillType": "MINIMAL",
-									"id": 22,
-									"archived": false
-								},
-								"countryCode": "BE",
-								"main": true,
-								"fillType": "FULL",
-								"id": 688,
-								"createdAt": 1580728973,
-								"updatedAt": 1580728973,
-								"archived": false
-							}
-						],
-						"fillType": "MINIMAL",
-						"id": 304,
-						"archived": false
-					},
-					"closedAt": 0,
-					"fillType": "MINIMAL",
-					"id": 304,
-					"archived": false
-				},
-				"type": "LEGAL",
-				"updatedBy": {
-					"userGroups": [
-
-					],
-					"portalUser": false,
-					"id": 176
-				},
-				"isPrivate": false,
-				"mostRecentUpdates": [
-
-				],
-				"fillType": "MINIMAL",
-				"id": 304,
-				"archived": false
-			},
-			"documentType": "CONTRACT",
-			"text": "Registratie",
-			"description": "",
-			"reminderDate": 1530176333,
-			"readByUser": false,
-			"fillType": "TABLE",
-			"id": 236
-		},
-		"id": 236
-	},
-	{
-		"type": "USER_FREE_FORM",
-		"data": {
-			"owner": 2,
-			"text": "Nieuw W. venn.",
-			"reminderDate": 1530176835,
-			"readByUser": false,
-			"id": 238
-		},
-		"id": 238
-	},
-	{
-		"type": "DOCUMENT_FREE_FORM",
-		"data": {
-			"document": 1588,
-			"topLevelEntity": {
-				"state": {
-					"data": {
-						"name": "Acme",
-						"nameAbbreviation": "",
-						"legalFormDefinition": {
-							"allowNewManagementBodies": false,
-							"localizedName": {
-								"translations": {
-									"nl": {
-										"string": "Naamloze vennootschap",
-										"fillType": "MINIMAL",
-										"id": 214,
-										"archived": false
-									},
-									"en": {
-										"string": "Public limited liability company",
-										"fillType": "MINIMAL",
-										"id": 212,
-										"archived": false
-									},
-									"fr": {
-										"string": "Société anonyme",
-										"fillType": "MINIMAL",
-										"id": 213,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 36,
-								"archived": false
-							},
-							"name": "Public limited liability company",
-							"localizedAbbreviation": {
-								"translations": {
-									"nl": {
-										"string": "NV",
-										"fillType": "MINIMAL",
-										"id": 216,
-										"archived": false
-									},
-									"en": {
-										"string": "NV/SA",
-										"fillType": "MINIMAL",
-										"id": 37,
-										"archived": false
-									},
-									"fr": {
-										"string": "SA",
-										"fillType": "MINIMAL",
-										"id": 215,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 37,
-								"archived": false
-							},
-							"abbreviation": "NV/SA",
-							"suiGeneris": false,
-							"hasEnterpriseNumber": true,
-							"governanceModel": "SINGLE_TIER_ONLY",
-							"isJointOwnership": false,
-							"securityConfigurations": [
-								{
-									"legalFormDefinition": 4,
-									"type": "SHARE",
-									"data": {
-										"defaultCapitalType": "SHARE_CAPITAL",
-										"alternativeShareCapitalTypes": [
-											"NO_CAPITAL"
-										],
-										"minimumNbSecurities": 1,
-										"minimumNbHolders": 1,
-										"allowIssueToSelf": false,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE",
-											"SINGLE"
-										],
-										"fillType": "MINIMAL",
-										"id": 1,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 1,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "WARRANT",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE"
-										],
-										"fillType": "MINIMAL",
-										"id": 2,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 2,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "BOND",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE"
-										],
-										"fillType": "MINIMAL",
-										"id": 3,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 3,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "PROFIT_SHARE",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"SINGLE"
-										],
-										"fillType": "MINIMAL",
-										"id": 4,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 4,
-									"archived": false
-								}
-							],
-							"managementBodies": [
-
-							],
-							"fillType": "MINIMAL",
-							"id": 4,
-							"archived": false
-						},
-						"status": "ACTIVE",
-						"hasAssets": true,
-						"contactInfos": [
-							{
-								"type": "EMAIL",
-								"value": "info@HOD.be",
-								"fillType": "MINIMAL",
-								"id": 889,
-								"archived": false
-							},
-							{
-								"type": "WEBSITE",
-								"value": "www.acme.com",
-								"fillType": "MINIMAL",
-								"id": 890,
-								"archived": false
-							}
-						],
-						"addresses": [
-							{
-								"type": "REGISTERED_OFFICE",
-								"street": "Louizalaan",
-								"number": "85",
-								"city": "Brussel",
-								"postalCode": "1000",
-								"country": {
-									"code": "BE",
-									"name": "Belgium",
-									"fillType": "MINIMAL",
-									"id": 22,
-									"archived": false
-								},
-								"countryCode": "BE",
-								"main": true,
-								"fillType": "FULL",
-								"id": 912,
-								"createdAt": 1601886350,
-								"updatedAt": 1601886350,
-								"archived": false
-							}
-						],
-						"fillType": "MINIMAL",
-						"id": 291,
-						"archived": false
-					},
-					"closedAt": 0,
-					"fillType": "MINIMAL",
-					"id": 291,
-					"archived": false
-				},
-				"type": "LEGAL",
-				"updatedBy": {
-					"userGroups": [
-
-					],
-					"portalUser": false,
-					"id": 213
-				},
-				"isPrivate": false,
-				"mostRecentUpdates": [
-
-				],
-				"fillType": "MINIMAL",
-				"id": 291,
-				"archived": false
-			},
-			"documentType": "CONTRACT",
-			"text": "Registratie contract",
-			"reminderDate": 1537351413,
-			"readByUser": false,
-			"id": 245
-		},
-		"id": 245
-	},
-	{
-		"type": "DOCUMENT_FREE_FORM",
-		"data": {
-			"document": 1588,
-			"topLevelEntity": {
-				"state": {
-					"data": {
-						"name": "Acme",
-						"nameAbbreviation": "",
-						"legalFormDefinition": {
-							"allowNewManagementBodies": false,
-							"localizedName": {
-								"translations": {
-									"nl": {
-										"string": "Naamloze vennootschap",
-										"fillType": "MINIMAL",
-										"id": 214,
-										"archived": false
-									},
-									"en": {
-										"string": "Public limited liability company",
-										"fillType": "MINIMAL",
-										"id": 212,
-										"archived": false
-									},
-									"fr": {
-										"string": "Société anonyme",
-										"fillType": "MINIMAL",
-										"id": 213,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 36,
-								"archived": false
-							},
-							"name": "Public limited liability company",
-							"localizedAbbreviation": {
-								"translations": {
-									"nl": {
-										"string": "NV",
-										"fillType": "MINIMAL",
-										"id": 216,
-										"archived": false
-									},
-									"en": {
-										"string": "NV/SA",
-										"fillType": "MINIMAL",
-										"id": 37,
-										"archived": false
-									},
-									"fr": {
-										"string": "SA",
-										"fillType": "MINIMAL",
-										"id": 215,
-										"archived": false
-									}
-								},
-								"fillType": "MINIMAL",
-								"id": 37,
-								"archived": false
-							},
-							"abbreviation": "NV/SA",
-							"suiGeneris": false,
-							"hasEnterpriseNumber": true,
-							"governanceModel": "SINGLE_TIER_ONLY",
-							"isJointOwnership": false,
-							"securityConfigurations": [
-								{
-									"legalFormDefinition": 4,
-									"type": "SHARE",
-									"data": {
-										"defaultCapitalType": "SHARE_CAPITAL",
-										"alternativeShareCapitalTypes": [
-											"NO_CAPITAL"
-										],
-										"minimumNbSecurities": 1,
-										"minimumNbHolders": 1,
-										"allowIssueToSelf": false,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE",
-											"SINGLE"
-										],
-										"fillType": "MINIMAL",
-										"id": 1,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 1,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "WARRANT",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE"
-										],
-										"fillType": "MINIMAL",
-										"id": 2,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 2,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "BOND",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"NONE"
-										],
-										"fillType": "MINIMAL",
-										"id": 3,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 3,
-									"archived": false
-								},
-								{
-									"legalFormDefinition": 4,
-									"type": "PROFIT_SHARE",
-									"data": {
-										"allowIssueToSelf": true,
-										"allowTransferToSelf": true,
-										"allowedVotingRights": [
-											"SINGLE"
-										],
-										"fillType": "MINIMAL",
-										"id": 4,
-										"archived": false
-									},
-									"fillType": "MINIMAL",
-									"id": 4,
-									"archived": false
-								}
-							],
-							"managementBodies": [
-
-							],
-							"fillType": "MINIMAL",
-							"id": 4,
-							"archived": false
-						},
-						"status": "ACTIVE",
-						"hasAssets": true,
-						"contactInfos": [
-							{
-								"type": "EMAIL",
-								"value": "info@HOD.be",
-								"fillType": "MINIMAL",
-								"id": 889,
-								"archived": false
-							},
-							{
-								"type": "WEBSITE",
-								"value": "www.acme.com",
-								"fillType": "MINIMAL",
-								"id": 890,
-								"archived": false
-							}
-						],
-						"addresses": [
-							{
-								"type": "REGISTERED_OFFICE",
-								"street": "Louizalaan",
-								"number": "85",
-								"city": "Brussel",
-								"postalCode": "1000",
-								"country": {
-									"code": "BE",
-									"name": "Belgium",
-									"fillType": "MINIMAL",
-									"id": 22,
-									"archived": false
-								},
-								"countryCode": "BE",
-								"main": true,
-								"fillType": "FULL",
-								"id": 912,
-								"createdAt": 1601886350,
-								"updatedAt": 1601886350,
-								"archived": false
-							}
-						],
-						"fillType": "MINIMAL",
-						"id": 291,
-						"archived": false
-					},
-					"closedAt": 0,
-					"fillType": "MINIMAL",
-					"id": 291,
-					"archived": false
-				},
-				"type": "LEGAL",
-				"updatedBy": {
-					"userGroups": [
-
-					],
-					"portalUser": false,
-					"id": 213
-				},
-				"isPrivate": false,
-				"mostRecentUpdates": [
-
-				],
-				"fillType": "MINIMAL",
-				"id": 291,
-				"archived": false
-			},
-			"documentType": "CONTRACT",
-			"text": "Termijn opschortende voorwaarde",
-			"reminderDate": 1538301832,
-			"readByUser": false,
-			"id": 246
-		},
-		"id": 246
-	}
-	]
+{
+  "data": [
+    {
+      "type": "USER_FREE_FORM",
+      "data": {
+        "text": "Test reminder",
+        "description": "blaaa",
+        "reminderDate": 1525162649,
+        "readByUser": false,
+        "id": 192,
+        "createdAt": 1525076257,
+        "updatedAt": 1525076257,
+        "archived": false
+      },
+      "fillType": "TABLE",
+      "id": 192
+    },
+    {
+      "type": "DOCUMENT_FREE_FORM",
+      "data": {
+        "topLevelEntity": {
+          "state": {
+            "data": {
+              "name": "KALCo",
+              "legalFormDefinition": {
+                "allowNewManagementBodies": false,
+                "localizedName": {
+                  "translations": {
+                    "nl": {
+                      "string": "Naamloze vennootschap",
+                      "fillType": "MINIMAL",
+                      "id": 214,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "Public limited liability company",
+                      "fillType": "MINIMAL",
+                      "id": 212,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "Société anonyme",
+                      "fillType": "MINIMAL",
+                      "id": 213,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 36,
+                  "archived": false
+                },
+                "name": "Public limited liability company",
+                "localizedAbbreviation": {
+                  "translations": {
+                    "nl": {
+                      "string": "NV",
+                      "fillType": "MINIMAL",
+                      "id": 216,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "NV/SA",
+                      "fillType": "MINIMAL",
+                      "id": 37,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "SA",
+                      "fillType": "MINIMAL",
+                      "id": 215,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 37,
+                  "archived": false
+                },
+                "abbreviation": "NV/SA",
+                "suiGeneris": false,
+                "hasEnterpriseNumber": true,
+                "governanceModel": "SINGLE_TIER_ONLY",
+                "isJointOwnership": false,
+                "securityConfigurations": [
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "SHARE",
+                    "data": {
+                      "defaultCapitalType": "SHARE_CAPITAL",
+                      "alternativeShareCapitalTypes": [
+                        "NO_CAPITAL"
+                      ],
+                      "minimumNbSecurities": 1,
+                      "minimumNbHolders": 1,
+                      "allowIssueToSelf": false,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE",
+                        "SINGLE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 1,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 1,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "WARRANT",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 2,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 2,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "BOND",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 3,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 3,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "PROFIT_SHARE",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "SINGLE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 4,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 4,
+                    "archived": false
+                  }
+                ],
+                "managementBodies": [
+  
+                ],
+                "fillType": "MINIMAL",
+                "id": 4,
+                "archived": false
+              },
+              "logo": 319,
+              "logoThumbnail": "data:image/image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAIAAACkSXkKAAABuElEQVR42mP4TyXAAMRfllR/mpyIHc3IgKj7NAmL7Ieu4P+/fyEM+jQ940OL1/tG1zfp8m8yFMBI/kO7P1DwQ1cQRB2I3eL1cVIcSE2m0rtqGyD3XaXV/98/EQZBwN93T18nS0ENSpPF6v43WWog2Sxl7F6DgD+v7r9OwWfQ98NL36TLvYrm/fv5HfkG/X3/Euxx+b9vn+IMbGIMepOt/CZD8WNPFL5YI2DQv3+v44TBgnIEoh+/Qb8fXACKvE6W/P/nN/kG/f385k2mIlCEqASJ06B/f1+nSgO5HzqCKDLoTZYKhPs6WYJsg+T+vn8OS+Ug9L4liHwXPXdlQJiVqfjv22cyDfr34yuyo4CCeMwiFGvvniGb9TKIjfx09GFCIrJZn2akkZ9FXgazIJkl/+fJdXLz2p/fwDIIbtbrFOl/X96RmWl/3z0LLEOQ/Uh+efShLQA5NXzd3I/doL8fXhJRQiojPBgn9PvhZRSDPvZFvqu0fFduBsqfwLAAIcV31dZAwff1TsgG/fv6ERjYMDVKb7JVgWp+nNoINejbnnlf13dhRd9Q3Q9KpEdWo6rp/H3/EorXKAQA0IDBWVkkwtUAAAAASUVORK5CYII=",
+              "status": "ACTIVE",
+              "hasAssets": true,
+              "contactInfos": [
+  
+              ],
+              "addresses": [
+                {
+                  "type": "REGISTERED_OFFICE",
+                  "street": "Grote Steenweg",
+                  "number": "85",
+                  "city": "Brussel",
+                  "postalCode": "1000",
+                  "country": {
+                    "code": "BE",
+                    "name": "Belgium",
+                    "fillType": "MINIMAL",
+                    "id": 22,
+                    "archived": false
+                  },
+                  "countryCode": "BE",
+                  "main": true,
+                  "fillType": "FULL",
+                  "id": 614,
+                  "createdAt": 1571824979,
+                  "updatedAt": 1571824979,
+                  "archived": false
+                }
+              ],
+              "fillType": "MINIMAL",
+              "id": 36,
+              "archived": false
+            },
+            "closedAt": 0,
+            "fillType": "MINIMAL",
+            "id": 36,
+            "archived": false
+          },
+          "type": "LEGAL",
+          "id": 36
+        },
+        "documentType": "CONTRACT",
+        "text": "Test reminder to Contract",
+        "description": "Demo silo",
+        "reminderDate": 1525185357,
+        "readByUser": false,
+        "id": 198
+      },
+      "id": 198
+    },
+    {
+      "type": "DOCUMENT_FREE_FORM",
+      "data": {
+        "topLevelEntity": {
+          "state": {
+            "data": {
+              "name": "KALCo",
+              "legalFormDefinition": {
+                "allowNewManagementBodies": false,
+                "localizedName": {
+                  "translations": {
+                    "nl": {
+                      "string": "Naamloze vennootschap",
+                      "fillType": "MINIMAL",
+                      "id": 214,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "Public limited liability company",
+                      "fillType": "MINIMAL",
+                      "id": 212,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "Société anonyme",
+                      "fillType": "MINIMAL",
+                      "id": 213,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 36,
+                  "archived": false
+                },
+                "name": "Public limited liability company",
+                "localizedAbbreviation": {
+                  "translations": {
+                    "nl": {
+                      "string": "NV",
+                      "fillType": "MINIMAL",
+                      "id": 216,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "NV/SA",
+                      "fillType": "MINIMAL",
+                      "id": 37,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "SA",
+                      "fillType": "MINIMAL",
+                      "id": 215,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 37,
+                  "archived": false
+                },
+                "abbreviation": "NV/SA",
+                "suiGeneris": false,
+                "hasEnterpriseNumber": true,
+                "governanceModel": "SINGLE_TIER_ONLY",
+                "isJointOwnership": false,
+                "securityConfigurations": [
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "SHARE",
+                    "data": {
+                      "defaultCapitalType": "SHARE_CAPITAL",
+                      "alternativeShareCapitalTypes": [
+                        "NO_CAPITAL"
+                      ],
+                      "minimumNbSecurities": 1,
+                      "minimumNbHolders": 1,
+                      "allowIssueToSelf": false,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE",
+                        "SINGLE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 1,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 1,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "WARRANT",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 2,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 2,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "BOND",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 3,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 3,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "PROFIT_SHARE",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "SINGLE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 4,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 4,
+                    "archived": false
+                  }
+                ],
+                "managementBodies": [
+  
+                ],
+                "fillType": "MINIMAL",
+                "id": 4,
+                "archived": false
+              },
+              "logo": 319,
+              "logoThumbnail": "data:image/image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAIAAACkSXkKAAABuElEQVR42mP4TyXAAMRfllR/mpyIHc3IgKj7NAmL7Ieu4P+/fyEM+jQ940OL1/tG1zfp8m8yFMBI/kO7P1DwQ1cQRB2I3eL1cVIcSE2m0rtqGyD3XaXV/98/EQZBwN93T18nS0ENSpPF6v43WWog2Sxl7F6DgD+v7r9OwWfQ98NL36TLvYrm/fv5HfkG/X3/Euxx+b9vn+IMbGIMepOt/CZD8WNPFL5YI2DQv3+v44TBgnIEoh+/Qb8fXACKvE6W/P/nN/kG/f385k2mIlCEqASJ06B/f1+nSgO5HzqCKDLoTZYKhPs6WYJsg+T+vn8OS+Ug9L4liHwXPXdlQJiVqfjv22cyDfr34yuyo4CCeMwiFGvvniGb9TKIjfx09GFCIrJZn2akkZ9FXgazIJkl/+fJdXLz2p/fwDIIbtbrFOl/X96RmWl/3z0LLEOQ/Uh+efShLQA5NXzd3I/doL8fXhJRQiojPBgn9PvhZRSDPvZFvqu0fFduBsqfwLAAIcV31dZAwff1TsgG/fv6ERjYMDVKb7JVgWp+nNoINejbnnlf13dhRd9Q3Q9KpEdWo6rp/H3/EorXKAQA0IDBWVkkwtUAAAAASUVORK5CYII=",
+              "status": "ACTIVE",
+              "hasAssets": true,
+              "contactInfos": [
+  
+              ],
+              "addresses": [
+                {
+                  "type": "REGISTERED_OFFICE",
+                  "street": "Grote Steenweg",
+                  "number": "85",
+                  "city": "Brussel",
+                  "postalCode": "1000",
+                  "country": {
+                    "code": "BE",
+                    "name": "Belgium",
+                    "fillType": "MINIMAL",
+                    "id": 22,
+                    "archived": false
+                  },
+                  "countryCode": "BE",
+                  "main": true,
+                  "fillType": "FULL",
+                  "id": 614,
+                  "createdAt": 1571824979,
+                  "updatedAt": 1571824979,
+                  "archived": false
+                }
+              ],
+              "fillType": "MINIMAL",
+              "id": 36,
+              "archived": false
+            },
+            "id": 36
+          },
+          "type": "LEGAL",
+          "id": 36
+        },
+        "documentType": "DEFAULT_DOCUMENT",
+        "text": "Test reminder aan contract 2",
+        "description": "Ook in demo",
+        "reminderDate": 1525185417,
+        "readByUser": false,
+        "id": 199
+      },
+      "id": 199
+    },
+    {
+      "type": "DOCUMENT_FREE_FORM",
+      "data": {
+        "document": 785,
+        "topLevelEntity": {
+          "state": {
+            "data": {
+              "name": "KALCo",
+              "legalFormDefinition": {
+                "allowNewManagementBodies": false,
+                "localizedName": {
+                  "translations": {
+                    "nl": {
+                      "string": "Naamloze vennootschap",
+                      "fillType": "MINIMAL",
+                      "id": 214,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "Public limited liability company",
+                      "fillType": "MINIMAL",
+                      "id": 212,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "Société anonyme",
+                      "fillType": "MINIMAL",
+                      "id": 213,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 36,
+                  "archived": false
+                },
+                "name": "Public limited liability company",
+                "localizedAbbreviation": {
+                  "translations": {
+                    "nl": {
+                      "string": "NV",
+                      "fillType": "MINIMAL",
+                      "id": 216,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "NV/SA",
+                      "fillType": "MINIMAL",
+                      "id": 37,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "SA",
+                      "fillType": "MINIMAL",
+                      "id": 215,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 37,
+                  "archived": false
+                },
+                "abbreviation": "NV/SA",
+                "suiGeneris": false,
+                "hasEnterpriseNumber": true,
+                "governanceModel": "SINGLE_TIER_ONLY",
+                "isJointOwnership": false,
+                "securityConfigurations": [
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "SHARE",
+                    "data": {
+                      "defaultCapitalType": "SHARE_CAPITAL",
+                      "alternativeShareCapitalTypes": [
+                        "NO_CAPITAL"
+                      ],
+                      "minimumNbSecurities": 1,
+                      "minimumNbHolders": 1,
+                      "allowIssueToSelf": false,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE",
+                        "SINGLE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 1,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 1,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "WARRANT",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 2,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 2,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "BOND",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 3,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 3,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "PROFIT_SHARE",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "SINGLE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 4,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 4,
+                    "archived": false
+                  }
+                ],
+                "managementBodies": [
+  
+                ],
+                "fillType": "MINIMAL",
+                "id": 4,
+                "archived": false
+              },
+              "logo": 319,
+              "logoThumbnail": "data:image/image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAIAAACkSXkKAAABuElEQVR42mP4TyXAAMRfllR/mpyIHc3IgKj7NAmL7Ieu4P+/fyEM+jQ940OL1/tG1zfp8m8yFMBI/kO7P1DwQ1cQRB2I3eL1cVIcSE2m0rtqGyD3XaXV/98/EQZBwN93T18nS0ENSpPF6v43WWog2Sxl7F6DgD+v7r9OwWfQ98NL36TLvYrm/fv5HfkG/X3/Euxx+b9vn+IMbGIMepOt/CZD8WNPFL5YI2DQv3+v44TBgnIEoh+/Qb8fXACKvE6W/P/nN/kG/f385k2mIlCEqASJ06B/f1+nSgO5HzqCKDLoTZYKhPs6WYJsg+T+vn8OS+Ug9L4liHwXPXdlQJiVqfjv22cyDfr34yuyo4CCeMwiFGvvniGb9TKIjfx09GFCIrJZn2akkZ9FXgazIJkl/+fJdXLz2p/fwDIIbtbrFOl/X96RmWl/3z0LLEOQ/Uh+efShLQA5NXzd3I/doL8fXhJRQiojPBgn9PvhZRSDPvZFvqu0fFduBsqfwLAAIcV31dZAwff1TsgG/fv6ERjYMDVKb7JVgWp+nNoINejbnnlf13dhRd9Q3Q9KpEdWo6rp/H3/EorXKAQA0IDBWVkkwtUAAAAASUVORK5CYII=",
+              "status": "ACTIVE",
+              "hasAssets": true,
+              "contactInfos": [
+  
+              ],
+              "addresses": [
+                {
+                  "type": "REGISTERED_OFFICE",
+                  "street": "Grote Steenweg",
+                  "number": "85",
+                  "city": "Brussel",
+                  "postalCode": "1000",
+                  "country": {
+                    "code": "BE",
+                    "name": "Belgium",
+                    "fillType": "MINIMAL",
+                    "id": 22,
+                    "archived": false
+                  },
+                  "countryCode": "BE",
+                  "main": true,
+                  "fillType": "FULL",
+                  "id": 614,
+                  "createdAt": 1571824979,
+                  "updatedAt": 1571824979,
+                  "archived": false
+                }
+              ],
+              "fillType": "MINIMAL",
+              "id": 36,
+              "archived": false
+            },
+            "closedAt": 0,
+            "fillType": "MINIMAL",
+            "id": 36,
+            "archived": false
+          },
+          "type": "LEGAL",
+          "updatedBy": {
+            "userGroups": [
+  
+            ],
+            "portalUser": false,
+            "id": 2
+          },
+          "isPrivate": false,
+          "mostRecentUpdates": [
+  
+          ],
+          "fillType": "MINIMAL",
+          "id": 36,
+          "archived": false
+        },
+        "documentType": "DEFAULT_DOCUMENT",
+        "text": "Test 3 van free from op Contract",
+        "description": "Demo omgeving",
+        "reminderDate": 1525185547,
+        "readByUser": false,
+        "id": 200
+      },
+      "id": 200
+    },
+    {
+      "type": "ENTITY_FREE_FORM",
+      "data": {
+        "entity": {
+          "state": {
+            "data": {
+              "name": "YY Company",
+              "legalFormDefinition": {
+                "allowNewManagementBodies": false,
+                "localizedName": {
+                  "translations": {
+                    "nl": {
+                      "string": "Besloten vennootschap met beperkte aansprakelijkheid",
+                      "fillType": "MINIMAL",
+                      "id": 199,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "Private limited liability company",
+                      "fillType": "MINIMAL",
+                      "id": 197,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "Société privée à responsabilité limitée",
+                      "fillType": "MINIMAL",
+                      "id": 198,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 30,
+                  "archived": false
+                },
+                "name": "Private limited liability company",
+                "localizedAbbreviation": {
+                  "translations": {
+                    "nl": {
+                      "string": "BVBA",
+                      "fillType": "MINIMAL",
+                      "id": 201,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "BVBA/SPRL",
+                      "fillType": "MINIMAL",
+                      "id": 31,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "SPRL",
+                      "fillType": "MINIMAL",
+                      "id": 200,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 31,
+                  "archived": false
+                },
+                "abbreviation": "BVBA/SPRL",
+                "suiGeneris": false,
+                "hasEnterpriseNumber": true,
+                "governanceModel": "SINGLE_TIER_ONLY",
+                "isJointOwnership": false,
+                "securityConfigurations": [
+                  {
+                    "legalFormDefinition": 1,
+                    "type": "SHARE",
+                    "data": {
+                      "defaultCapitalType": "SHARE_CAPITAL",
+                      "alternativeShareCapitalTypes": [
+                        "NO_CAPITAL"
+                      ],
+                      "minimumNbSecurities": 1,
+                      "minimumNbHolders": 1,
+                      "allowIssueToSelf": false,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE",
+                        "SINGLE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 6,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 6,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 1,
+                    "type": "BOND",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 7,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 7,
+                    "archived": false
+                  }
+                ],
+                "managementBodies": [
+  
+                ],
+                "fillType": "MINIMAL",
+                "id": 1,
+                "archived": false
+              },
+              "status": "ACTIVE",
+              "hasAssets": true,
+              "contactInfos": [
+  
+              ],
+              "addresses": [
+                {
+                  "type": "REGISTERED_OFFICE",
+                  "street": "Veldstraat",
+                  "number": "20",
+                  "city": "Gent",
+                  "postalCode": "9000",
+                  "country": {
+                    "code": "BE",
+                    "name": "Belgium",
+                    "fillType": "MINIMAL",
+                    "id": 22,
+                    "archived": false
+                  },
+                  "countryCode": "BE",
+                  "main": true,
+                  "fillType": "FULL",
+                  "id": 688,
+                  "createdAt": 1580728973,
+                  "updatedAt": 1580728973,
+                  "archived": false
+                }
+              ],
+              "fillType": "MINIMAL",
+              "id": 304,
+              "archived": false
+            },
+            "closedAt": 0,
+            "fillType": "MINIMAL",
+            "id": 304,
+            "archived": false
+          },
+          "type": "LEGAL",
+          "updatedBy": {
+            "userGroups": [
+  
+            ],
+            "portalUser": false,
+            "id": 176
+          },
+          "isPrivate": false,
+          "mostRecentUpdates": [
+  
+          ],
+          "fillType": "MINIMAL",
+          "id": 304,
+          "archived": false
+        },
+        "owner": 2,
+        "text": "Blaaa",
+        "reminderDate": 1529399131,
+        "readByUser": false,
+        "id": 237
+      },
+      "id": 237
+    },
+    {
+      "type": "DOCUMENT_FREE_FORM",
+      "data": {
+        "document": 948,
+        "topLevelEntity": {
+          "state": {
+            "data": {
+              "name": "YY Company",
+              "legalFormDefinition": {
+                "allowNewManagementBodies": false,
+                "localizedName": {
+                  "translations": {
+                    "nl": {
+                      "string": "Besloten vennootschap met beperkte aansprakelijkheid",
+                      "fillType": "MINIMAL",
+                      "id": 199,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "Private limited liability company",
+                      "fillType": "MINIMAL",
+                      "id": 197,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "Société privée à responsabilité limitée",
+                      "fillType": "MINIMAL",
+                      "id": 198,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 30,
+                  "archived": false
+                },
+                "name": "Private limited liability company",
+                "localizedAbbreviation": {
+                  "translations": {
+                    "nl": {
+                      "string": "BVBA",
+                      "fillType": "MINIMAL",
+                      "id": 201,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "BVBA/SPRL",
+                      "fillType": "MINIMAL",
+                      "id": 31,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "SPRL",
+                      "fillType": "MINIMAL",
+                      "id": 200,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 31,
+                  "archived": false
+                },
+                "abbreviation": "BVBA/SPRL",
+                "suiGeneris": false,
+                "hasEnterpriseNumber": true,
+                "governanceModel": "SINGLE_TIER_ONLY",
+                "isJointOwnership": false,
+                "securityConfigurations": [
+                  {
+                    "legalFormDefinition": 1,
+                    "type": "SHARE",
+                    "data": {
+                      "defaultCapitalType": "SHARE_CAPITAL",
+                      "alternativeShareCapitalTypes": [
+                        "NO_CAPITAL"
+                      ],
+                      "minimumNbSecurities": 1,
+                      "minimumNbHolders": 1,
+                      "allowIssueToSelf": false,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE",
+                        "SINGLE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 6,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 6,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 1,
+                    "type": "BOND",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 7,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 7,
+                    "archived": false
+                  }
+                ],
+                "managementBodies": [
+  
+                ],
+                "fillType": "MINIMAL",
+                "id": 1,
+                "archived": false
+              },
+              "status": "ACTIVE",
+              "hasAssets": true,
+              "contactInfos": [
+  
+              ],
+              "addresses": [
+                {
+                  "type": "REGISTERED_OFFICE",
+                  "street": "Veldstraat",
+                  "number": "20",
+                  "city": "Gent",
+                  "postalCode": "9000",
+                  "country": {
+                    "code": "BE",
+                    "name": "Belgium",
+                    "fillType": "MINIMAL",
+                    "id": 22,
+                    "archived": false
+                  },
+                  "countryCode": "BE",
+                  "main": true,
+                  "fillType": "FULL",
+                  "id": 688,
+                  "createdAt": 1580728973,
+                  "updatedAt": 1580728973,
+                  "archived": false
+                }
+              ],
+              "fillType": "MINIMAL",
+              "id": 304,
+              "archived": false
+            },
+            "closedAt": 0,
+            "fillType": "MINIMAL",
+            "id": 304,
+            "archived": false
+          },
+          "type": "LEGAL",
+          "updatedBy": {
+            "userGroups": [
+  
+            ],
+            "portalUser": false,
+            "id": 176
+          },
+          "isPrivate": false,
+          "mostRecentUpdates": [
+  
+          ],
+          "fillType": "MINIMAL",
+          "id": 304,
+          "archived": false
+        },
+        "documentType": "CONTRACT",
+        "text": "Registratie",
+        "description": "",
+        "reminderDate": 1530176333,
+        "readByUser": false,
+        "fillType": "TABLE",
+        "id": 236
+      },
+      "id": 236
+    },
+    {
+      "type": "USER_FREE_FORM",
+      "data": {
+        "owner": 2,
+        "text": "Nieuw W. venn.",
+        "reminderDate": 1530176835,
+        "readByUser": false,
+        "id": 238
+      },
+      "id": 238
+    },
+    {
+      "type": "DOCUMENT_FREE_FORM",
+      "data": {
+        "document": 1588,
+        "topLevelEntity": {
+          "state": {
+            "data": {
+              "name": "Acme",
+              "nameAbbreviation": "",
+              "legalFormDefinition": {
+                "allowNewManagementBodies": false,
+                "localizedName": {
+                  "translations": {
+                    "nl": {
+                      "string": "Naamloze vennootschap",
+                      "fillType": "MINIMAL",
+                      "id": 214,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "Public limited liability company",
+                      "fillType": "MINIMAL",
+                      "id": 212,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "Société anonyme",
+                      "fillType": "MINIMAL",
+                      "id": 213,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 36,
+                  "archived": false
+                },
+                "name": "Public limited liability company",
+                "localizedAbbreviation": {
+                  "translations": {
+                    "nl": {
+                      "string": "NV",
+                      "fillType": "MINIMAL",
+                      "id": 216,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "NV/SA",
+                      "fillType": "MINIMAL",
+                      "id": 37,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "SA",
+                      "fillType": "MINIMAL",
+                      "id": 215,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 37,
+                  "archived": false
+                },
+                "abbreviation": "NV/SA",
+                "suiGeneris": false,
+                "hasEnterpriseNumber": true,
+                "governanceModel": "SINGLE_TIER_ONLY",
+                "isJointOwnership": false,
+                "securityConfigurations": [
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "SHARE",
+                    "data": {
+                      "defaultCapitalType": "SHARE_CAPITAL",
+                      "alternativeShareCapitalTypes": [
+                        "NO_CAPITAL"
+                      ],
+                      "minimumNbSecurities": 1,
+                      "minimumNbHolders": 1,
+                      "allowIssueToSelf": false,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE",
+                        "SINGLE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 1,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 1,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "WARRANT",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 2,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 2,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "BOND",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 3,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 3,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "PROFIT_SHARE",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "SINGLE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 4,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 4,
+                    "archived": false
+                  }
+                ],
+                "managementBodies": [
+  
+                ],
+                "fillType": "MINIMAL",
+                "id": 4,
+                "archived": false
+              },
+              "status": "ACTIVE",
+              "hasAssets": true,
+              "contactInfos": [
+                {
+                  "type": "EMAIL",
+                  "value": "info@HOD.be",
+                  "fillType": "MINIMAL",
+                  "id": 889,
+                  "archived": false
+                },
+                {
+                  "type": "WEBSITE",
+                  "value": "www.acme.com",
+                  "fillType": "MINIMAL",
+                  "id": 890,
+                  "archived": false
+                }
+              ],
+              "addresses": [
+                {
+                  "type": "REGISTERED_OFFICE",
+                  "street": "Louizalaan",
+                  "number": "85",
+                  "city": "Brussel",
+                  "postalCode": "1000",
+                  "country": {
+                    "code": "BE",
+                    "name": "Belgium",
+                    "fillType": "MINIMAL",
+                    "id": 22,
+                    "archived": false
+                  },
+                  "countryCode": "BE",
+                  "main": true,
+                  "fillType": "FULL",
+                  "id": 912,
+                  "createdAt": 1601886350,
+                  "updatedAt": 1601886350,
+                  "archived": false
+                }
+              ],
+              "fillType": "MINIMAL",
+              "id": 291,
+              "archived": false
+            },
+            "closedAt": 0,
+            "fillType": "MINIMAL",
+            "id": 291,
+            "archived": false
+          },
+          "type": "LEGAL",
+          "updatedBy": {
+            "userGroups": [
+  
+            ],
+            "portalUser": false,
+            "id": 213
+          },
+          "isPrivate": false,
+          "mostRecentUpdates": [
+  
+          ],
+          "fillType": "MINIMAL",
+          "id": 291,
+          "archived": false
+        },
+        "documentType": "CONTRACT",
+        "text": "Registratie contract",
+        "reminderDate": 1537351413,
+        "readByUser": false,
+        "id": 245
+      },
+      "id": 245
+    },
+    {
+      "type": "DOCUMENT_FREE_FORM",
+      "data": {
+        "document": 1588,
+        "topLevelEntity": {
+          "state": {
+            "data": {
+              "name": "Acme",
+              "nameAbbreviation": "",
+              "legalFormDefinition": {
+                "allowNewManagementBodies": false,
+                "localizedName": {
+                  "translations": {
+                    "nl": {
+                      "string": "Naamloze vennootschap",
+                      "fillType": "MINIMAL",
+                      "id": 214,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "Public limited liability company",
+                      "fillType": "MINIMAL",
+                      "id": 212,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "Société anonyme",
+                      "fillType": "MINIMAL",
+                      "id": 213,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 36,
+                  "archived": false
+                },
+                "name": "Public limited liability company",
+                "localizedAbbreviation": {
+                  "translations": {
+                    "nl": {
+                      "string": "NV",
+                      "fillType": "MINIMAL",
+                      "id": 216,
+                      "archived": false
+                    },
+                    "en": {
+                      "string": "NV/SA",
+                      "fillType": "MINIMAL",
+                      "id": 37,
+                      "archived": false
+                    },
+                    "fr": {
+                      "string": "SA",
+                      "fillType": "MINIMAL",
+                      "id": 215,
+                      "archived": false
+                    }
+                  },
+                  "fillType": "MINIMAL",
+                  "id": 37,
+                  "archived": false
+                },
+                "abbreviation": "NV/SA",
+                "suiGeneris": false,
+                "hasEnterpriseNumber": true,
+                "governanceModel": "SINGLE_TIER_ONLY",
+                "isJointOwnership": false,
+                "securityConfigurations": [
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "SHARE",
+                    "data": {
+                      "defaultCapitalType": "SHARE_CAPITAL",
+                      "alternativeShareCapitalTypes": [
+                        "NO_CAPITAL"
+                      ],
+                      "minimumNbSecurities": 1,
+                      "minimumNbHolders": 1,
+                      "allowIssueToSelf": false,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE",
+                        "SINGLE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 1,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 1,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "WARRANT",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 2,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 2,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "BOND",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "NONE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 3,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 3,
+                    "archived": false
+                  },
+                  {
+                    "legalFormDefinition": 4,
+                    "type": "PROFIT_SHARE",
+                    "data": {
+                      "allowIssueToSelf": true,
+                      "allowTransferToSelf": true,
+                      "allowedVotingRights": [
+                        "SINGLE"
+                      ],
+                      "fillType": "MINIMAL",
+                      "id": 4,
+                      "archived": false
+                    },
+                    "fillType": "MINIMAL",
+                    "id": 4,
+                    "archived": false
+                  }
+                ],
+                "managementBodies": [
+  
+                ],
+                "fillType": "MINIMAL",
+                "id": 4,
+                "archived": false
+              },
+              "status": "ACTIVE",
+              "hasAssets": true,
+              "contactInfos": [
+                {
+                  "type": "EMAIL",
+                  "value": "info@HOD.be",
+                  "fillType": "MINIMAL",
+                  "id": 889,
+                  "archived": false
+                },
+                {
+                  "type": "WEBSITE",
+                  "value": "www.acme.com",
+                  "fillType": "MINIMAL",
+                  "id": 890,
+                  "archived": false
+                }
+              ],
+              "addresses": [
+                {
+                  "type": "REGISTERED_OFFICE",
+                  "street": "Louizalaan",
+                  "number": "85",
+                  "city": "Brussel",
+                  "postalCode": "1000",
+                  "country": {
+                    "code": "BE",
+                    "name": "Belgium",
+                    "fillType": "MINIMAL",
+                    "id": 22,
+                    "archived": false
+                  },
+                  "countryCode": "BE",
+                  "main": true,
+                  "fillType": "FULL",
+                  "id": 912,
+                  "createdAt": 1601886350,
+                  "updatedAt": 1601886350,
+                  "archived": false
+                }
+              ],
+              "fillType": "MINIMAL",
+              "id": 291,
+              "archived": false
+            },
+            "closedAt": 0,
+            "fillType": "MINIMAL",
+            "id": 291,
+            "archived": false
+          },
+          "type": "LEGAL",
+          "updatedBy": {
+            "userGroups": [
+  
+            ],
+            "portalUser": false,
+            "id": 213
+          },
+          "isPrivate": false,
+          "mostRecentUpdates": [
+  
+          ],
+          "fillType": "MINIMAL",
+          "id": 291,
+          "archived": false
+        },
+        "documentType": "CONTRACT",
+        "text": "Termijn opschortende voorwaarde",
+        "reminderDate": 1538301832,
+        "readByUser": false,
+        "id": 246
+      },
+      "id": 246
+    }
+  ]
 }

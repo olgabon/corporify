@@ -1,1 +1,38 @@
-<p>reminders-listing works!</p>
+<div nz-row nzJustify="space-between" class="table-operations">
+  <label nz-checkbox [(ngModel)]="isCheckedButton" (ngModelChange)="sortByDate()">
+    Sort by Recent Date
+  </label>
+  <button nz-button (click)="openModal('add')"><i nz-icon nzType="plus" nzTheme="outline"></i>Add</button>
+</div>
+
+<nz-table #sortTable [nzData]="data" [nzFrontPagination]="false" nzTableLayout="fixed">
+    <thead>
+      <tr>
+        <th>Alert Date</th>
+        <th>Entity</th>
+        <th>Title</th>
+        <th>Due date</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of sortTable.data">
+        <td>{{item.data.reminderDate*1000 | date:'d/M/y'}}</td>
+        <td>{{item.data.topLevelEntity ? item.data.topLevelEntity.state.data.name : item.data.entity?.state?.data?.name}}</td>
+        <td>{{item.data.text}}</td>
+        <td>{{item.data.reminderDate*1000 | date:'d/M/y'}}</td>
+        <td>
+          <a (click)="openModal('edit', item)"><i nz-icon nzType="edit" nzTheme="outline"></i> Edit</a>
+        </td>
+      </tr>
+    </tbody>
+</nz-table>
+
+<nz-modal [(nzVisible)]="isModalVisible" nzTitle="{{modalTitle}}" (nzOnCancel)="closeModal()" nzFooter=null nzWidth="50vw">
+  <ng-container *ngIf="detailsData">
+    <app-reminders-modal [details]="detailsData" (edit)="editReminder($event)" (cancel)="closeModal($event)"></app-reminders-modal>
+  </ng-container>
+  <ng-container *ngIf="!detailsData">
+    <app-reminders-modal [details]="null" (addNew)="addNewReminder($event)" (cancel)="closeModal($event)"></app-reminders-modal>
+  </ng-container>
+</nz-modal>

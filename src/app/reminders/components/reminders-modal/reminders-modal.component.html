@@ -1,0 +1,27 @@
+<form nz-form [formGroup]="form">
+  <nz-form-item>
+    <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired>Alert Date</nz-form-label>
+    <nz-form-control [nzSm]="14" [nzXs]="24">
+      <nz-date-picker nzPlaceHolder="{{details ? (details.data.reminderDate * 1000 | date:'yyyy-MM-dd') : 'Alert Date'}}" formControlName="reminderDate"></nz-date-picker>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired>Repeat</nz-form-label>
+    <nz-form-control [nzSm]="14" [nzXs]="24" >
+      <nz-select formControlName="archived" nzPlaceHolder="{{details ? (details.data.archived === true ? repeatOptions[0].label : repeatOptions[1].label) : 'Please select...'}}">
+        <nz-option *ngFor="let option of repeatOptions" [nzLabel]="option.label" [nzValue]="option.value"></nz-option>
+      </nz-select>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzSm]="6" [nzXs]="24">Notes</nz-form-label>
+    <nz-form-control [nzSm]="14" [nzXs]="24" >
+      <textarea nz-input placeholder="Please, provide the decription of your reminder"
+        formControlName="description"></textarea>
+    </nz-form-control>
+  </nz-form-item>
+</form>
+<div nz-row nzAlign="middle" nzJustify="center">
+    <button (click)="cancelModal()" nz-button>Cancel</button>
+    <button (click)="onSave()" [disabled]="!form.valid" nz-button nzType="primary">Save</button>
+</div>

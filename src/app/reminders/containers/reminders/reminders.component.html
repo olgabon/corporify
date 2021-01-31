@@ -1,1 +1,2 @@
-<app-reminders-listing [data]="(reminders$ | async)"></app-reminders-listing>
+<app-reminders-listing [data]="(reminders$ | async)" (addNew)="addReminder($event)" (edit)="editReminder($event)">
+</app-reminders-listing>
