@@ -20,4 +20,5 @@ describe('RemindersModalComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
+
 });

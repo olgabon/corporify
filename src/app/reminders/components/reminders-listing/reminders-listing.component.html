@@ -21,7 +21,7 @@
         <td>{{item.data.topLevelEntity ? item.data.topLevelEntity.state.data.name : item.data.entity?.state?.data?.name}}</td>
         <td>{{item.data.text}}</td>
         <td>{{item.data.reminderDate*1000 | date:'d/M/y'}}</td>
-        <td>
+        <td class="action">
           <a (click)="openModal('edit', item)"><i nz-icon nzType="edit" nzTheme="outline"></i> Edit</a>
         </td>
       </tr>

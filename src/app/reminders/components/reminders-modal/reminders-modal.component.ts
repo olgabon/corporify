@@ -24,7 +24,7 @@ export class RemindersModalComponent implements OnInit {
       this.form = this.fb.group({
         reminderDate: this.details ? new Date(this.details.data.reminderDate * 1000) : [null, [Validators.required]],
         archived: this.details ? this.details.data.archived : [null, [Validators.required]],
-        description: this.details ? this.details.data.description : [null]
+        description: this.details ? this.details.data.description : [null, [Validators.maxLength(40)]]
       });
 
   }

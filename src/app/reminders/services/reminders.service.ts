@@ -7,6 +7,9 @@ import { ReminderModel } from '../state/reminders.model';
   providedIn: 'root'
 })
 export class RemindersService {
+  fetchViaHttp() {
+    throw new Error('Method not implemented.');
+  }
   url = 'http://localhost:3000/data';
   headers = new HttpHeaders({
     'Content-Type': 'application/json'
