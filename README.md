@@ -4,9 +4,9 @@ This project is a simple representation of listing data of Corporify reminders w
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 Run `npm install` to install project dependencies.
 Run `npx json-server server/reminders.json` for a back-end server. Back-end is listening on  `http://localhost:3000/`.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
